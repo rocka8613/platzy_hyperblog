@@ -1,0 +1,20 @@
+    1  git config -l
+    2  ssh-keygen -t rsa -b 4096 -C "123749@gmail.com"
+    3  eval $(ssh-agent -s)
+    4  ssh-add /c/Users/WDAGUtilityAccount/.ssh/id_rsa
+    5  git config --global user.name "rocka8613"
+    6  git config --global user.email "123749@gmail.com"
+    7  cd Documents/
+    8  git clone https://github.com/rocka8613/platzy_hyperblog.git
+    9  git log --all --graph --decorate --oneline
+   10  cd platzy_hyperblog/
+   11  git log --all --graph --decorate --oneline
+   12  git branch 
+   13  git branch cabecera
+   14  git branch 
+   15  git checkout cabecera 
+   16  git push origin cabecera 
+   17  history 
+   18  git checkout main
+   19  history 
+   20  history >> command_history.txt
