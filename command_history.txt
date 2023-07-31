@@ -72,3 +72,17 @@
    72  alias pcomandos = "history >> command_history.txt"
    73  alias pcomandos="history >> command_history.txt"
    74  pcomandos
+   75  git commit -am "comandos"
+   76  git push origin main 
+   77  alias pcomandos="history > command_history.txt"
+   78  git pull origin main 
+   79  git branch -D cabecera 
+   80  git log --oneline 
+   81  git reflog 
+   82  git grep -n color
+   83  git grep -nc color
+   84  git grep -nc "<p>"
+   85  git log -S "comand"
+   86  git shortlog -sn --all --no-merges 
+   87  git blame blogpost.html
+   88  pcomandos
